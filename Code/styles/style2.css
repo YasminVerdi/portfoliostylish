@@ -70,6 +70,7 @@ body {
     background-position: top;
     font-family: "Poppins", sans-serif;
     margin: 0px;
+    position: relative;
 }
 main {
     font-family: "Poppins", sans-serif;
@@ -79,6 +80,16 @@ main {
     margin-right: 0px;
     margin-top: 0px;
     margin-bottom: 20px;
+}
+.pages {
+    font-family: "Poppins", sans-serif;
+    text-size: 14pt;
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    padding-top: 90px;
 }
 
 a{
@@ -94,9 +105,9 @@ ul{
     background-color: var(--darkorange);
     padding: 0;
     z-index: 100;
-    position: sticky;
     top: 100;
     width: 100%;
+    position: fixed;
 }
 .header__inner {
   width: 100%;
@@ -497,7 +508,7 @@ ul{
 /* Name and description */
 
 p.name {
-    margin-top: 20px;
+    margin-top: 0px;
     margin-bottom: 20px;
     text-align: center;
     font-size: calc(35px + 1.5vw);
@@ -514,6 +525,7 @@ p.about {
 }
 caption {
     color: black;
+    margin-top: 50px;
 
 }
 
@@ -1377,3 +1389,16 @@ iframe {
   grid-row: 13 / 15;
   text-align: left;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+ 

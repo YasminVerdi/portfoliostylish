@@ -617,7 +617,7 @@ p.name {
 	--height: 56px;
 	--font-size: calc(var(--height) / 3);
 	--paddings: calc(var(--height) / 2);
-	--border-width: 4px;
+	--border-width: 3px;
 
 	display: inline-flex;
 	flex-flow: row nowrap;
@@ -676,7 +676,10 @@ p.name {
 .cta-button:hover::before {
 	display: none;
 }
+.page__wrapper {
+	margin: auto;
 
+}
 
 
 
